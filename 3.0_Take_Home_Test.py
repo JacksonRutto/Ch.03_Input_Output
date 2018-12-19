@@ -35,7 +35,7 @@ pi = 3.14
 A=22
 print(a)
 '''
-
+#This does not work because The variable A is uppercase and not lower case
 
 
 '''
@@ -45,7 +45,7 @@ A
 Area
 AREA
 area
-areaOfRectangle
+areaOfRectangle - this one is best
 AreaOfRectangle
 '''
 
@@ -56,12 +56,12 @@ apple
 Apple
 APPLE
 Apple2
-1Apple
-account number
+1Apple - not allowed
+account number - not allowed
 account_number
-account.number
+account.number - not allowed
 accountNumber
-account#
+account# - doesnt work
 '''
 
 
@@ -71,7 +71,7 @@ account#
 print(a)
 a=45
 '''
-
+#One must print after setting the variable
 
 
 '''

@@ -13,6 +13,11 @@ In: -40  Out: ???
 
 '''
 
+Fahrenheit = int(input("Enter a temperature in Fahrenheit: "))
+
+Celsius = (Fahrenheit - 32) * 5.0/9.0
+
+print (Fahrenheit, "F = ", Celsius, " C")
 
 
 
