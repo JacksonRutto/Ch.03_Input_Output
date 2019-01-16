@@ -79,27 +79,31 @@ a=45
 side and store the result in a variable. Make sure to convert the value
 to an integer.
 '''
+length = float(input("Length: "))
 
 
 '''
 10. Write a line of code that prints the area of the square, using the
 number the user typed in that you stored in question 9.
 '''
-
+print("The length is: ", length)
 
 
 '''11. Do the same as in questions 9 and 10, but with the formula for the
 area of an ellipse. Area=pi*a*b where a and b are the lengths of the major radii.
 '''
-
-
+pi = 3.14
+a = float(input("a: "))
+b = float(input("b: "))
+area = (pi * a * b)
+print("The area is:", area)
 
 '''
 12. Do the same as in questions 9 and 10, but with a formula to find
 the pressure of a gas. PV=nRT where n is the number of moles, T is the absolute temperature, V is the
 volume, and R is the gas constant 8.3144.
 '''
-
+n = 8.3144
 
 '''
 13. Explain the mistake in this code:
