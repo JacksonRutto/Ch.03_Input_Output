@@ -13,3 +13,7 @@ Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
 
+sem_grade = float(input("Semester grade: "))
+final = float(input("Final exam grade: "))
+exam = float(input("Exam worth/weight: "))
+overall = ()
