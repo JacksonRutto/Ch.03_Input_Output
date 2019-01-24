@@ -109,7 +109,7 @@ n = 8.3144
 13. Explain the mistake in this code:
 pi = float(3.14)
 '''
-
+# There is no need to say float, python already knows
 
 
 '''
@@ -131,3 +131,4 @@ a=((x)*(y))
 16. Explain the mistake in the following code:
 radius = input(float("Enter the radius:"))
 '''
+# Float and input need to be switched
