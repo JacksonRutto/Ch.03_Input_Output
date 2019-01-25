@@ -118,14 +118,14 @@ x=3.14
 pi=x
 area=pi*radius**2
 '''
-
+# Pi can just be set as 3.14 instead of assigning 3.14 to x
 
 '''
 Assuming x and y are already defined, this code runs. But
 something isn't quite right. Explain the mistake in the following code:
 a=((x)*(y))
 '''
-
+# It does not need the parenthesis
 
 '''
 16. Explain the mistake in the following code:
