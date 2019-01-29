@@ -26,14 +26,18 @@ print (17%9) - square root? --- 8
 '''
 4. Write a a program where a user enters a base and height and you print the area of a triangle.
 '''
-
+b = float(input("Base of triangle: "))
+h = float(input("Height of triangle: "))
+area = ((b / 2) * h)
+print(area)
 
 '''
 5. Change this program so it works.
 A=May the Force be with you!
 print(a)
 '''
-
+a = "May the force be with you!"
+print(a)
 
 
 
@@ -41,8 +45,9 @@ print(a)
 6. Write a line of code that will ask the user for the length of a square's
 side and then print the area of the square
 '''
-
-
+l = float(input("Length of square: "))
+area = (l ** 2)
+print(area)
 
 '''7. Ask a user for the length of radii of an ellipse and then print its area. 
 Area=pi*a*b where a and b are the lengths of the major radii.
