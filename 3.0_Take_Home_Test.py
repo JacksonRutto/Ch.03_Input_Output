@@ -52,18 +52,27 @@ print(area)
 '''7. Ask a user for the length of radii of an ellipse and then print its area. 
 Area=pi*a*b where a and b are the lengths of the major radii.
 '''
-
-
-
+pi = 3.14
+a = float(input("Length of first major radii: "))
+b = float(input("Length of other major radaii: "))
+area = (pi * a * b)
+print(area)
 '''
 8. Ask a user for moles, volume and temperature of a gas and print out the pressure. PV=nRT where n is the number of moles, T is the absolute temperature, V is the
 volume, and R is the gas constant 8.3144.
 '''
+n = float(input("Number of moles: "))
+v = float(input("Volume: "))
+t = float(input("Temperture (K): "))
+r = 8.3144
+p = (n * r * t) / v
+print(p)
 
 '''
 9. Ask a user for an integer and then print the square root.
 '''
-
+number = int(input("Enter an integer for its square root: "))
+print("The square root of ", square_root)
 
 '''
 10. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. Ask the user for mass and acceleration
