@@ -71,11 +71,16 @@ print(p)
 '''
 9. Ask a user for an integer and then print the square root.
 '''
+import math
 number = int(input("Enter an integer for its square root: "))
-print("The square root of ", square_root)
+answer = (math.sqrt(number))
+print(answer)
 
 '''
 10. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. Ask the user for mass and acceleration
 and then print out the Force on one line and "Get it?" on the next.
 '''
-
+mass = float(input("Mass of object: "))
+acc = float(input("Acceleration: "))
+force = mass * acc
+print(force)
