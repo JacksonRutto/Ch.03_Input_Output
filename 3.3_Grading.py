@@ -13,7 +13,9 @@ Sem Grade: 95   Final Exam: 32   Exam worth: 10%    Overall: 88.7
 Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 '''
 
-sem_grade = float(input("Semester grade: "))
-final = float(input("Final exam grade: "))
-exam = float(input("Exam worth/weight: "))
-overall = ()
+grade = float(input("Semester grade: "))
+test = float(input("Test grade: "))
+worth = float(input("Test worth: "))
+worth = worth/100
+overall = test*worth+grade*(1-worth)
+print("Overall grade is ", overall, "%")
